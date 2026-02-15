@@ -9,7 +9,10 @@
     "build": "tsc",
     "test": "set SKIP_MONGO=true&& jest",
     "test:full": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "docker:up": "docker-compose up",
+    "docker:build": "docker-compose up --build",
+    "docker:down": "docker-compose down"
   },
   "keywords": [],
   "author": "",
